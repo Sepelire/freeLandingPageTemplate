@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="root">
+    <!-- Начало header'а -->
+    <header class="header">
+        <nav class="header__navigation">
+            <ul class="header__list">
+                <li><a href="" class="header__item-anchor"><span class="header__item-span">Home</span></a></li>
+                <li><a href="" class="header__item-anchor">About me</a></li>
+                <li><a href="" class="header__item-anchor">Skills</a></li>
+                <li><a href="" class="header__item-anchor">Portfolio</a></li>
+                <li><a href="" class="header__item-anchor">Contacts</a></li>  
+            </ul>
+        </nav>
+    </header>
+    <!-- Начало main'а -->
+    <main class="main">
+        <!-- Начало секции profile -->
+        <section class="profile">
+            <div class="profile__cover">
+                <h1 class="profile__name">name Surname</h1>
+                <h2 class="profile__details">profession Age City</h2>
+                <button class="profile__lang-btn profile__lang-btn"><span class="profile__lang-span profile__lang-span--inactive">RU</span> | <span class="profile__lang-span">EN</span></button>
+            </div>
+            <div title="Я бы тебя обнял, но я всего лишь надпись" class="profile__img"></div>
+        </section>
+        <!-- Начало секции about -->
+        <section class="about">
+            <h2 class="about__title">About me</h2>
+            <p class="about__description">
+                Hi, I'm Denis – UX/UI designer from Minsk. 
+                I'm interested in design and everything connected with it.
+
+                I'm studying at courses "Web and mobile design 
+                interfaces" in IT-Academy.
+
+                Ready to implement excellent projects
+                with wonderful people.
+            </p>
+        </section>
+        <!-- Начало секции skills -->
+        <section class="skills">
+            <h2 class="skills__title">Skills</h2>
+            <p class="skills__subtitle">I work in such programs as</p>
+            <ul class="skills__list">
+                <li class="skills__item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1051px-Adobe_Photoshop_CC_icon.svg.png" alt="Картинку я не дам" class="skills__item-icon">
+                    <article class="skills__item-article">Adobe Photoshop</article>
+                    <div class="skills__cover-stars">
+                        <input type="radio" name="ratingPhotoshop" id="photoshopStar-1" class="skills__input-star skills__input-star--photoshop">
+                        <label for="photoshopStar-1" class="skills__label-star skills__label-star--photoshop">&#9733;</label>
+                        <input type="radio" name="ratingPhotoshop" id="photoshopStar-2" class="skills__input-star skills__input-star--photoshop">
+                        <label for="photoshopStar-2" class="skills__label-star skills__label-star--photoshop">&#9733;</label>
+                        <input type="radio" name="ratingPhotoshop" id="photoshopStar-3" class="skills__input-star skills__input-star--photoshop">
+                        <label for="photoshopStar-3" class="skills__label-star skills__label-star--photoshop">&#9733;</label>
+                        <input type="radio" name="ratingPhotoshop" id="photoshopStar-4" class="skills__input-star skills__input-star--photoshop">
+                        <label for="photoshopStar-4" class="skills__label-star skills__label-star--photoshop">&#9733;</label>
+                        <input type="radio" name="ratingPhotoshop" id="photoshopStar-5" class="skills__input-star skills__input-star--photoshop">
+                        <label for="photoshopStar-5" class="skills__label-star skills__label-star--photoshop">&#9733;</label>
+                    </div>
+                </li>
+                <li class="skills__item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/640px-Adobe_Illustrator_CC_icon.svg.png" alt="Картинку я не дам" class="skills__item-icon">
+                    <article class="skills__item-article">Adobe Illustrator</article>
+                    <div class="skills__cover-stars">
+                        <input type="radio" name="ratingIllustrator" id="illustratorStar-1" class="skills__input-star skills__input-star--illustrator">
+                        <label for="illustratorStar-1" class="skills__label-star skills__label-star--illustrator">&#9733;</label>
+                        <input type="radio" name="ratingIllustrator" id="illustratorStar-2" class="skills__input-star skills__input-star--illustrator">
+                        <label for="illustratorStar-2" class="skills__label-star skills__label-star--illustrator">&#9733;</label>
+                        <input type="radio" name="ratingIllustrator" id="illustratorStar-3" class="skills__input-star skills__input-star--illustrator">
+                        <label for="illustratorStar-3" class="skills__label-star skills__label-star--illustrator">&#9733;</label>
+                        <input type="radio" name="ratingIllustrator" id="illustratorStar-4" class="skills__input-star skills__input-star--illustrator">
+                        <label for="illustratorStar-4" class="skills__label-star skills__label-star--illustrator">&#9733;</label>
+                        <input type="radio" name="ratingIllustrator" id="illustratorStar-5" class="skills__input-star skills__input-star--illustrator">
+                        <label for="illustratorStar-5" class="skills__label-star skills__label-star--illustrator">&#9733;</label>
+                    </div>
+                </li>
+                <li class="skills__item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/1051px-Adobe_After_Effects_CC_icon.svg.png" alt="Картинку я не дам" class="skills__item-icon">
+                    <article class="skills__item-article">Adobe After&nbsp;Effects</article>
+                    <div class="skills__cover-stars">
+                        <input type="radio" name="ratingAfterEffects" id="aftereffectsStar-1" class="skills__input-star skills__input-star--aftereffects">
+                        <label for="aftereffectsStar-1" class="skills__label-star skills__label-star--aftereffects">&#9733;</label>
+                        <input type="radio" name="ratingAfterEffects" id="aftereffectsStar-2" class="skills__input-star skills__input-star--aftereffects">
+                        <label for="aftereffectsStar-2" class="skills__label-star skills__label-star--aftereffects">&#9733;</label>
+                        <input type="radio" name="ratingAfterEffects" id="aftereffectsStar-3" class="skills__input-star skills__input-star--aftereffects">
+                        <label for="aftereffectsStar-3" class="skills__label-star skills__label-star--aftereffects">&#9733;</label>
+                        <input type="radio" name="ratingAfterEffects" id="aftereffectsStar-4" class="skills__input-star skills__input-star--aftereffects">
+                        <label for="aftereffectsStar-4" class="skills__label-star skills__label-star--aftereffects">&#9733;</label>
+                        <input type="radio" name="ratingAfterEffects" id="aftereffectsStar-5" class="skills__input-star skills__input-star--aftereffects">
+                        <label for="aftereffectsStar-5" class="skills__label-star skills__label-star--aftereffects">&#9733;</label>
+                    </div>
+                </li>
+                <li class="skills__item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Картинку я не дам" class="skills__item-icon">
+                    <article class="skills__item-article">Figma</article>
+                    <div class="skills__cover-stars">
+                        <input type="radio" name="ratingFigma" id="figmaStar-1" class="skills__input-star skills__input-star--figma">
+                        <label for="figmaStar-1" class="skills__label-star skills__label-star--figma">&#9733;</label>
+                        <input type="radio" name="ratingFigma" id="figmaStar-2" class="skills__input-star skills__input-star--figma">
+                        <label for="figmaStar-2" class="skills__label-star skills__label-star--figma">&#9733;</label>
+                        <input type="radio" name="ratingFigma" id="figmaStar-3" class="skills__input-star skills__input-star--figma">
+                        <label for="figmaStar-3" class="skills__label-star skills__label-star--figma">&#9733;</label>
+                        <input type="radio" name="ratingFigma" id="figmaStar-4" class="skills__input-star skills__input-star--figma">
+                        <label for="figmaStar-4" class="skills__label-star skills__label-star--figma">&#9733;</label>
+                        <input type="radio" name="ratingFigma" id="figmaStar-5" class="skills__input-star skills__input-star--figma">
+                        <label for="figmaStar-5" class="skills__label-star skills__label-star--figma">&#9733;</label>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- Начало секции portfolio -->
+        <section class="portfolio">
+            <h2 class="portfolio__title">Portfolio</h2>
+            <div class="portfolio__slider">
+                <article class="portfolio__slider-article">Rem</article>
+                <!-- <article class="portfolio__slider-article">Ram</article>
+                <article class="portfolio__slider-article">PETELGEUSE ROMANEE-CONTIE</article> -->
+                <img src="https://wallpaperaccess.com/full/925056.png" alt="" class="portfolio__slider-img">
+                <!-- <img src="https://i.pinimg.com/originals/bb/47/b5/bb47b51c7033d6a6602ea26909e631f8.jpg" alt="" class="portfolio__slider-img"> -->
+                <!-- <img src="https://i.pinimg.com/originals/2c/15/11/2c1511a8789c6b9ac402c9616242465e.jpg" alt="" class="portfolio__slider-img"> -->
+                <div class="portfolio__slider-cover">
+                    <button class="portfolio__slider-btn portfolio__slider-btn--prev"></button>
+                    <span class="portfolio__slider-pagination portfolio__slider-pagination--active"></span>
+                    <span class="portfolio__slider-pagination"></span>
+                    <span class="portfolio__slider-pagination"></span>
+                    <button class="portfolio__slider-btn portfolio__slider-btn--next"></button>
+                </div>
+            </div>
+        </section>
+        <!-- Начало секции contacts -->
+        <section class="contacts">
+            <h2 class="contacts__title">Contacts</h2>
+            <p class="contacts__description">Want to know more or just chat? You are welcome!</p>
+            <button class="contacts__btn-send">Send message</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul class="footer__list">
+            <li class="footer__item">
+                <a href="https://www.youtube.com/"><img src="https://www.svgrepo.com/show/140440/youtube.svg" alt="Картинку я не дам" class="footer__item-icon"></a>
+            </li>
+            <li class="footer__item">
+                <a href="https://www.instagram.com/"><img src="https://pixlok.com/wp-content/uploads/2021/07/Instagram-Free-Icon-rdfd.png" alt="Картинку я не дам" class="footer__item-icon"></a>
+            </li>
+            <li class="footer__item">
+                <a href="https://ru-ru.facebook.com/"><img src="https://www.svgrepo.com/download/3885/facebook.svg" alt="Картинку я не дам" class="footer__item-icon"></a>
+            </li>
+        </ul>
+        <p class="footer__text">Like me on 
+            LinkedIn, Instagram, Behance, Dribble
+        </p>
+    </footer>
+</body>
+</html>
