@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Gilroy-Bold';
     src: local('Gilroy-Bold'),
-        url('/Fonts/Gilroy-Bold.woff2') format('woff2'),
-        url('/Fonts/Gilroy-Bold.woff') format('woff');
+        url('Fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('Fonts/Gilroy-Bold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Gilroy-Medium';
     src: local(Gilroy-Medium),
-        url('/Fonts/Gilroy-Medium.woff2') format('woff2'),
-        url('/Fonts/Gilroy-Medium.woff') format('woff');
+        url('Fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('Fonts/Gilroy-Medium.woff') format('woff');
 }
 
 * {
