@@ -265,7 +265,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 475px) {
     .skills__list {
         grid-template-columns: repeat(1, 1fr);
         row-gap: 30px;
