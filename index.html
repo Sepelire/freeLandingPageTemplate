@@ -21,18 +21,18 @@
         </nav>
     </header>
     <!-- Начало main'а -->
-    <main class="main">
+    <main class="content">
         <!-- Начало секции profile -->
         <section class="profile">
             <h1 class="profile__name">name Surname</h1>
             <button class="profile__menu-popup"><img src="https://cdn-icons-png.flaticon.com/512/56/56763.png" alt="Меню я не дам" class="portfolio__menu-icon"></button>
             <h2 class="profile__details">profession Age City</h2>
-            <button class="profile__lang-btn profile__lang-btn"><span class="profile__lang-span profile__lang-span--inactive">RU</span> | <span class="profile__lang-span">EN</span></button>
+            <button class="profile__lang-btn"><span class="profile__lang-span profile__lang-span--inactive">RU</span> | <span class="profile__lang-span">EN</span></button>
             <div title="Я бы тебя обнял, но я всего лишь надпись" class="profile__img"></div>
         </section>
         <!-- Начало секции about -->
         <section class="about">
-            <h2 class="about__title">About me</h2>
+            <h2 class="title title--about">About me</h2>
             <p class="about__description">
                 Hi, I'm Denis – UX/UI designer from Minsk. 
                 I'm interested in design and everything connected with it.
@@ -46,13 +46,15 @@
         </section>
         <!-- Начало секции skills -->
         <section class="skills">
-            <h2 class="skills__title">Skills</h2>
+            <h2 class="title title--skills">Skills</h2>
             <p class="skills__subtitle">I work in such programs as</p>
             <ul class="skills__list">
                 <li class="skills__item">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1051px-Adobe_Photoshop_CC_icon.svg.png" alt="Картинку я не дам" class="skills__item-icon">
-                    <article class="skills__item-article">Adobe Photoshop</article>
-                    <div class="skills__cover-stars">
+                    <figure class="skills__item-figure">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1051px-Adobe_Photoshop_CC_icon.svg.png" alt="Картинку я не дам" class="skills__item-icon">
+						<figcaption class="skills__item-figcaption">Adobe Photoshop</figcaption>
+					</figure>
+                    <form class="skills__form-stars">
                         <input type="radio" name="ratingPhotoshop" id="photoshopStar-1" class="skills__input-star skills__input-star--photoshop">
                         <label for="photoshopStar-1" class="skills__label-star skills__label-star--photoshop">&#9733;</label>
                         <input type="radio" name="ratingPhotoshop" id="photoshopStar-2" class="skills__input-star skills__input-star--photoshop">
@@ -63,12 +65,14 @@
                         <label for="photoshopStar-4" class="skills__label-star skills__label-star--photoshop">&#9733;</label>
                         <input type="radio" name="ratingPhotoshop" id="photoshopStar-5" class="skills__input-star skills__input-star--photoshop">
                         <label for="photoshopStar-5" class="skills__label-star skills__label-star--photoshop">&#9733;</label>
-                    </div>
+                    </form>
                 </li>
                 <li class="skills__item">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/640px-Adobe_Illustrator_CC_icon.svg.png" alt="Картинку я не дам" class="skills__item-icon">
-                    <article class="skills__item-article">Adobe Illustrator</article>
-                    <div class="skills__cover-stars">
+					<figure class="skills__item-figure">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/640px-Adobe_Illustrator_CC_icon.svg.png" alt="Картинку я не дам" class="skills__item-icon">
+						<figcaption class="skills__item-figcaption">Adobe Illustrator</figcaption>
+					</figure>
+                    <form class="skills__form-stars">
                         <input type="radio" name="ratingIllustrator" id="illustratorStar-1" class="skills__input-star skills__input-star--illustrator">
                         <label for="illustratorStar-1" class="skills__label-star skills__label-star--illustrator">&#9733;</label>
                         <input type="radio" name="ratingIllustrator" id="illustratorStar-2" class="skills__input-star skills__input-star--illustrator">
@@ -79,12 +83,14 @@
                         <label for="illustratorStar-4" class="skills__label-star skills__label-star--illustrator">&#9733;</label>
                         <input type="radio" name="ratingIllustrator" id="illustratorStar-5" class="skills__input-star skills__input-star--illustrator">
                         <label for="illustratorStar-5" class="skills__label-star skills__label-star--illustrator">&#9733;</label>
-                    </div>
+                    </form>
                 </li>
                 <li class="skills__item">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/1051px-Adobe_After_Effects_CC_icon.svg.png" alt="Картинку я не дам" class="skills__item-icon">
-                    <article class="skills__item-article">Adobe After&nbsp;Effects</article>
-                    <div class="skills__cover-stars">
+					<figure class="skills__item-figure">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/1051px-Adobe_After_Effects_CC_icon.svg.png" alt="Картинку я не дам" class="skills__item-icon">
+						<figcaption class="skills__item-figcaption">Adobe After&nbsp;Effects</figcaption>
+					</figure>
+                    <form class="skills__form-stars">
                         <input type="radio" name="ratingAfterEffects" id="aftereffectsStar-1" class="skills__input-star skills__input-star--aftereffects">
                         <label for="aftereffectsStar-1" class="skills__label-star skills__label-star--aftereffects">&#9733;</label>
                         <input type="radio" name="ratingAfterEffects" id="aftereffectsStar-2" class="skills__input-star skills__input-star--aftereffects">
@@ -95,12 +101,14 @@
                         <label for="aftereffectsStar-4" class="skills__label-star skills__label-star--aftereffects">&#9733;</label>
                         <input type="radio" name="ratingAfterEffects" id="aftereffectsStar-5" class="skills__input-star skills__input-star--aftereffects">
                         <label for="aftereffectsStar-5" class="skills__label-star skills__label-star--aftereffects">&#9733;</label>
-                    </div>
+                    </form>
                 </li>
                 <li class="skills__item">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Картинку я не дам" class="skills__item-icon">
-                    <article class="skills__item-article">Figma</article>
-                    <div class="skills__cover-stars">
+					<figure class="skills__item-figure">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Картинку я не дам" class="skills__item-icon">
+						<figcaption class="skills__item-figcaption">Figma</figcaption>
+					</figure>
+                    <form class="skills__form-stars">
                         <input type="radio" name="ratingFigma" id="figmaStar-1" class="skills__input-star skills__input-star--figma">
                         <label for="figmaStar-1" class="skills__label-star skills__label-star--figma">&#9733;</label>
                         <input type="radio" name="ratingFigma" id="figmaStar-2" class="skills__input-star skills__input-star--figma">
@@ -111,15 +119,15 @@
                         <label for="figmaStar-4" class="skills__label-star skills__label-star--figma">&#9733;</label>
                         <input type="radio" name="ratingFigma" id="figmaStar-5" class="skills__input-star skills__input-star--figma">
                         <label for="figmaStar-5" class="skills__label-star skills__label-star--figma">&#9733;</label>
-                    </div>
+                    </form>
                 </li>
             </ul>
         </section>
         <!-- Начало секции portfolio -->
         <section class="portfolio">
-            <h2 class="portfolio__title">Portfolio</h2>
+            <h2 class="title title--portfolio">Portfolio</h2>
             <div class="portfolio__slider">
-                <article class="portfolio__slider-article">Rem</article>
+                <p class="portfolio__slider-name">Rem</p>
                 <!-- <article class="portfolio__slider-article">Ram</article>
                     <article class="portfolio__slider-article">PETELGEUSE ROMANEE-CONTIE</article> -->
                     <img src="https://wallpaperaccess.com/full/925056.png" alt="" class="portfolio__slider-img">
@@ -136,7 +144,7 @@
         </section>
         <!-- Начало секции contacts -->
         <section class="contacts">
-            <h2 class="contacts__title">Contacts</h2>
+            <h2 class="title title--contacts">Contacts</h2>
             <p class="contacts__description">Want to know more or just chat? You are welcome!</p>
             <button class="contacts__btn-send">Send message</button>
         </section>

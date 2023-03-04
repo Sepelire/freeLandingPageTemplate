@@ -209,9 +209,8 @@
     }
 }
 
-.about__title {
-    margin: 0;
-    width: 155px;
+.title {
+    margin: 0 auto;
     font-family: Gilroy-Bold;
     font-size: 34px;
     line-height: 42px;
@@ -234,10 +233,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-
-.skills__title {
-    margin: 0;
 }
 
 .skills__subtitle {
@@ -277,6 +272,13 @@
     width: 165px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.skills__item-figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -287,7 +289,7 @@
     object-fit: contain;
 }
 
-.skills__item-article {
+.skills__item-figcaption {
     margin: 0 auto 30px;
     width: 80px;
     height: 30px;
@@ -298,7 +300,7 @@
     color: #828282;
 }
 
-.skills__cover-stars {
+.skills__form-stars {
     margin: 0 auto;
     display: inline-block;
     direction: rtl;
@@ -349,12 +351,8 @@
     background-color: #F6F6F6;
 }
 
-.portfolio__title {
+.title--portfolio {
     margin: 0 auto 50px;
-    font-family: Gilroy-Bold;
-    font-size: 34px;
-    line-height: 42px;
-    text-align: center;
 }
 
 .portfolio__slider {
@@ -362,7 +360,7 @@
     max-width: 935px;
 }
 
-.portfolio__slider-article {
+.portfolio__slider-name {
     margin: 0 auto 15px;
     text-align: center;
 }
@@ -432,13 +430,8 @@
     align-items: center;
 }
 
-.contacts__title {
+.title--contacts {
     margin: 0 auto 20px;
-    max-width: 145px;
-    font-family: Gilroy-Bold;
-    font-size: 34px;
-    line-height: 42px;
-    text-align: center;
 }
 
 .contacts__description {
