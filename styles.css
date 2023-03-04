@@ -157,9 +157,10 @@
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
     .profile__menu-popup {
+        width: 30px;
         display: unset;
         align-self: start;
-        text-align: end;
+        justify-self: end;
     }
 
     .profile__menu-popup:hover {
@@ -168,7 +169,7 @@
 }
 
 .portfolio__menu-icon {
-    width: 33px;
+    width: 30px;
 }
 
 .profile__lang-span--inactive {
