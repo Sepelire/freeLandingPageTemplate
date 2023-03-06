@@ -224,12 +224,6 @@
     text-align: center;
 }
 
-@media screen and (max-width: ) {
-    .about__description {
-        padding: 70px 0;
-    }
-}
-
 /* Начало секции skills */
 .skills {
     padding: 80px 0 70px;
