@@ -150,26 +150,27 @@
 
 .profile__menu-popup {
     padding: 0;
+    max-width: 30px;
     display: none;
     border: none;
     background: rgba(0, 0, 0, 0);
 }
 
+.profile__menu-popup:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 767px) and (min-width: 320px) {
     .profile__menu-popup {
-        width: 30px;
         display: unset;
         align-self: start;
         justify-self: end;
     }
 
-    .profile__menu-popup:hover {
-        cursor: pointer;
-    }
 }
 
-.portfolio__menu-icon {
-    width: 30px;
+.profile__menu-icon {
+    max-width: 30px;
 }
 
 .profile__lang-span--inactive {
@@ -204,11 +205,6 @@
     background: #F6F6F6;
 }
 
-@media screen {
-    .about {
-        padding: 70px 0;
-    }
-}
 
 .title {
     margin: 0 auto;
@@ -226,6 +222,12 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
+}
+
+@media screen and (max-width: ) {
+    .about__description {
+        padding: 70px 0;
+    }
 }
 
 /* Начало секции skills */
