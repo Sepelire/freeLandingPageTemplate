@@ -33,8 +33,15 @@
     <main class="content">
         <!-- Начало секции profile -->
         <section class="profile">
-            <h1 class="profile__name">name Surname</h1>
-            <button class="profile__menu-popup"><img src="https://cdn-icons-png.flaticon.com/512/56/56763.png" alt="Меню я не дам" class="profile__menu-icon"></button>
+            <h1 class="profile__name">Name Surname</h1>
+            <div class="profile__menu-burger">
+                <input type="checkbox" class="menu-burger__input" id="menu-burger__input">
+                <label for="menu-burger__input" class="menu-burger__label"></label>
+                <span class="menu-burger__line--first"></span>
+                <span class="menu-burger__line--second"></span>
+                <span class="menu-burger__line--third"></span>
+                <span class="menu-burger__line--fourth"></span>
+            </div>
             <h2 class="profile__details">profession Age City</h2>
             <button class="profile__lang-btn"><span class="profile__lang-span profile__lang-span--inactive">RU</span> | <span class="profile__lang-span">EN</span></button>
             <div title="Я бы тебя обнял, но я всего лишь надпись" class="profile__img"></div>
